@@ -1,3 +1,9 @@
+/*
+Problem Description:
+We want to create different objects without using new in the client code.
+The goal is to keep object creation in one place so the code is easier to change and extend.
+*/
+
 interface Notification {
     void send(String message);
 }
